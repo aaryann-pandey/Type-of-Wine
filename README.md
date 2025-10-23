@@ -42,7 +42,7 @@ The dataset used is **winequalityN.csv**, which includes features like:
 - *Python 3*
 - *Pandas, **NumPy* – Data handling  
 - *Matplotlib, **Seaborn* – Data visualization  
-- *Scikit-learn* – (For data preprocessing or model building)
+- *Scikit-learn* – Model training and evaluation  
 - *Jupyter Notebook* – Development environment
 
 ---
@@ -64,14 +64,19 @@ Key insights:
 
 ## 🧩 Model Training
 
-(Include this if your notebook includes model training)  
-A classification model such as *Decision Tree* or *Logistic Regression* can be trained to predict the wine type.  
-Evaluation metrics like *accuracy, **confusion matrix, and **classification report* can be used to measure performance.
+Multiple classification algorithms were applied, including:
+- Logistic Regression  
+- Decision Tree (before and after parameter tuning)  
+- Random Forest  
+- Naive Bayes  
+- Support Vector Machine (SVM)  
+- K-Nearest Neighbors (KNN)
+
+Each model’s accuracy score is compared below.
 
 ---
 
 ## 📈 Results
 
-- Dataset cleaned and visualized successfully  
-- Clear separation observed between red and white wines based on key chemical properties  
-- Model accuracy:
+- *Best performing models:* Logistic Regression, Random Forest, and SVM  
+- *Highest accuracy:* 98%
